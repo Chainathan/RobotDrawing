@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+-- Found depth_image_proc: 3.0.6 (/opt/ros/humble/share/depth_image_proc/cmake)
+-- Found camera_info_manager: 3.1.10 (/opt/ros/humble/share/camera_info_manager/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/Desktop/kinect_ros2/build/kinect_ros2
+[ 25%] [32mBuilding CXX object CMakeFiles/kinect_ros2_component.dir/src/kinect_ros2_component.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libkinect_ros2_component.so[0m
+[ 50%] Built target kinect_ros2_component
+[ 75%] [32mBuilding CXX object CMakeFiles/kinect_ros2_node.dir/src/kinect_ros2_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable kinect_ros2_node[0m
+[100%] Built target kinect_ros2_node
+-- Install configuration: ""
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/lib/libkinect_ros2_component.so
+-- Set runtime path of "/home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/lib/libkinect_ros2_component.so" to ""
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/lib/kinect_ros2/kinect_ros2_node
+-- Set runtime path of "/home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/lib/kinect_ros2/kinect_ros2_node" to ""
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/cfg
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/cfg/calibration_depth.yaml
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/cfg/calibration_rgb.yaml
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/launch
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/launch/showimage.launch.py
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/launch/pointcloud.launch.py
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/rviz
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/rviz/pointcloud.rviz
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/ament_index/resource_index/package_run_dependencies/kinect_ros2
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/ament_index/resource_index/parent_prefix_path/kinect_ros2
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/environment/path.sh
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/environment/path.dsv
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/local_setup.bash
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/local_setup.sh
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/local_setup.zsh
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/local_setup.dsv
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/package.dsv
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/ament_index/resource_index/packages/kinect_ros2
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/ament_index/resource_index/rclcpp_components/kinect_ros2
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/cmake/kinect_ros2Config.cmake
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/cmake/kinect_ros2Config-version.cmake
+-- Installing: /home/ubuntu/Desktop/kinect_ros2/install/kinect_ros2/share/kinect_ros2/package.xml
