@@ -1,4 +1,4 @@
-To Setup Camera : 
+### To Setup Kinect v1 Camera : 
 
 Make sure to connect camera to USB 3.0 Port.
 
@@ -11,7 +11,7 @@ To view RGB Feed :
 ros2 launch kinect_ros2 showimage.launch.py
 
 
-List of Topics 
+### List of Topics from OAK-D Lite and WX250s
 
 /attached_collision_object
 
