@@ -1,3 +1,10 @@
+### Useful Links 
+
+1. https://discuss.luxonis.com/d/5129-transforming-oak-d-lite-frame-to-panda-arm-frame
+2. https://docs.luxonis.com/software/ros/depthai-ros/driver/
+3. 
+
+
 ### To Setup Kinect v1 Camera : 
 
 Make sure to connect camera to USB 3.0 Port.
