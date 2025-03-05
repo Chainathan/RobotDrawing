@@ -18,6 +18,12 @@ To view RGB Feed :
 ros2 launch kinect_ros2 showimage.launch.py
 
 
+### To setup Widowx250s Arm 
+
+source ~/interbotix_ws/install/setup.bash
+
+ros2 launch interbotix_xsarm_moveit xsarm_moveit.launch.py robot_model:=wx250s use_sim_time:=true
+
 ### List of Topics from OAK-D Lite and WX250s
 
 /attached_collision_object
