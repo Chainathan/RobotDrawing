@@ -55,7 +55,7 @@ def main():
     # Smooth the curve using interpolation
     smoothed_x, smoothed_y = generate_smooth_path(x_points, y_points, num_interp=500)
 
-    # Draw the AI-smoothed flower pattern
+    # Draw the smoothed flower pattern
     current_x, current_y = start_x, start_y
     for x, y in zip(smoothed_x, smoothed_y):
         dx, dy = x - current_x, y - current_y
