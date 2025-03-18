@@ -13,7 +13,7 @@ from scipy.spatial import distance
 from scipy.spatial import distance_matrix
 from scipy.optimize import linear_sum_assignment
 
-directory_path = r'C:\Users\13601\Desktop'
+directory_path = r'C:\Users\13601\Desktop\RobotDrawing'
 image_path = os.path.join(directory_path, 'my_picture.jpg')
 
 # FUNCTIONS DEFINITION --------------------------------------------------------------------
@@ -194,8 +194,13 @@ for i in range(len(labels)):
 tsp_path = nx.approximation.traveling_salesman_problem(G, cycle=False)
 
 # Plot intra-cluster paths (red)
+time_dict = {} # dictionary, with key been time information, and value been x-and-y coordinate point. 
+time = 0.0 # the initial value of time, 0.0
 for label, path in cluster_paths.items():
     x_p, y_p = zip(*path)
+    for x, y in path:
+        time_dict[time] = (x, y)
+        time = time + 1
     plt.plot(x_p, y_p, 'red', linewidth=0.5, label=f"Cluster {label}")
 
 # Plot TSP path between clusters (blue)
@@ -211,7 +216,12 @@ Return information for downstream processing.
 """
 var1 = cluster_paths
 var2 = tsp_path
+var3 = time_dict
 print("var1: information about how to draw each individual cluster.")
-print("var2: information about how to traverse between clusters, thus drawing all clusters (i.e. the entire image)")
+print("var2: information about how to traverse between clusters, thus drawing all clusters (i.e. the entire image).")
+print("var3: a dictionary, with key been time information, and with value been x-and-y coordinate information.")
+print(len(var1))
+print(len(var2))
+print(len(var3))
 
-# Last editted, March 16, 2025. 
+# Last editted, March 17, 2025. 
