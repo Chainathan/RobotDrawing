@@ -12,3 +12,5 @@ Try RDP
 Path Optimization: 
     Consider each branch point and terminal point as nodes and generate optimal movement between different components
 
+RobotClass:
+    Step for pen setup
