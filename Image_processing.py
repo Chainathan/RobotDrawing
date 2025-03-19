@@ -124,7 +124,20 @@ contours, _ = cv2.findContours(binary_result, cv2.RETR_EXTERNAL, cv2.CHAIN_APPRO
 edge_points = [tuple(pt[0]) for contour in contours for pt in contour]
 
 """
-From the collection of edge points, randomly select a set of sample points. 
+Sample the coordinate system, into an ideal size. (Takeaway from March 19th discussion)
+"""
+# Define the original and new sizes.
+original_x_size = binary_result.shape[1] # width
+original_y_size = binary_result.shape[0] # height
+# Define based on custom need. 
+new_x_size = 300
+new_y_size = 300
+
+# Scaling the edge points. 
+edge_points = [(int(x * new_x_size / original_x_size), int(y * new_y_size / original_y_size)) for x, y in edge_points]
+
+"""
+From the collection of edge points, randomly select a set of sample points.
 """
 # set the number of sampled points.
 num_samples = min(3000, len(edge_points)) # You can replace '3000' with other values, as you see fit.
