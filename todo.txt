@@ -1,0 +1,14 @@
+Image Preprocessin:
+Connect nearby disconnected components
+
+Graph:
+Curvature-Based Resampling (Adaptive Sampling)
+    Place more points in curved sections and fewer in straight segments.
+
+Resampling:
+Try RDP
+
+
+Path Optimization: 
+    Consider each branch point and terminal point as nodes and generate optimal movement between different components
+
